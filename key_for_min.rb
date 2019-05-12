@@ -6,6 +6,6 @@ def key_for_min_value (hash)
     if hash.length < 1
         return nil
     else hash.each {|key, value| hash[key] <=> hash[value]}
-      
+
     end
 end
